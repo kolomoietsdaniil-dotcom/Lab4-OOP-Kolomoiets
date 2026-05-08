@@ -337,7 +337,7 @@ void Task_VectorUShort_Menu() {
 			cout << " Після ~v1:  "; (~v1).Print();
 			cout << " Після -v1:  "; (-v1).Print();
 			cout << "\n Оригінал v2: "; v2.Print();
-			cout << " Після --v2: "; (v2--).Print();
+			cout << " Після --v2: "; (--v2).Print();
 			break;
 		}
 		case 5: {
